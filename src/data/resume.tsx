@@ -78,11 +78,11 @@ export const DATA = {
       end: "2025",
     },
     {
-      school: "University of Waterloo",
+      school: "Nalandas Higher secondary school",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree in Computer Science (BCS)", // Fixed text consistency
+      degree: "SSLC , HSC", // Fixed text consistency
       logoUrl: "/waterloo.png",
-      start: "2016",
+      start: "2018",
       end: "2021",
     },
   ],
