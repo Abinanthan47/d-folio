@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react"; // Removed unused `NotebookIcon`
 
 export const DATA = {
   name: "Dinesh",
@@ -8,24 +8,23 @@ export const DATA = {
   location: "Tiruchengode, Namakkal",
   locationLink: "https://www.google.com/maps/Namakkal",
   description:
-    "Frontend Developer and Ui Ux designer. I love building things and helping people.",
+    "Frontend Developer and UI/UX designer. I love building things and helping people.",
   summary:
-    " Hi, I'm Dinesh, a final-year Electronics and Communication Engineering student at Sona College of Technology, Salem. Alongside my academic journey, I've developed a strong passion for Frontend Development and UI/UX Design..",
+    "Hi, I'm Dinesh, a final-year Electronics and Communication Engineering student at Sona College of Technology, Salem. Alongside my academic journey, I've developed a strong passion for Frontend Development and UI/UX Design.",
   avatarUrl: "/profile.jpg",
   skills: [
     "React",
     "HTML",
-    "Javascript",
+    "JavaScript", // Fixed the capitalization
     "CSS",
     "Figma",
     "Adobe Xd",
-    "IOT",
+    "IoT", // Fixed the casing for IoT
     "Java",
     "C",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-   
   ],
   contact: {
     email: "skdinesh2003@gmail.com",
@@ -35,49 +34,41 @@ export const DATA = {
         name: "GitHub",
         url: "https://dub.sh/dillion-github",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/dinesh-dk-03979b265",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/dinesh-dk",
         icon: Icons.x,
-
         navbar: true,
       },
-     
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:skdinesh2003@gmail.com", // Added valid `mailto` link
         icon: Icons.email,
-
         navbar: false,
       },
     },
   },
-
   work: [
     {
       company: "Freelancer",
       href: "https://fiverr.com",
       badges: [],
       location: "Remote",
-      title: "Freelance designer",
+      title: "Freelance Designer",
       logoUrl: "/fiv-logo.webp",
       start: "Apr 2022",
       end: "Present",
       description:
         "I’ve worked as a freelance UI/UX Designer, honing my skills in creating visually appealing, user-friendly digital interfaces.",
     },
-  
-  
   ],
   education: [
     {
@@ -91,13 +82,11 @@ export const DATA = {
     {
       school: "University of Waterloo",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor's Degree in Computer Science (BCS)", // Fixed text consistency
       logoUrl: "/waterloo.png",
       start: "2016",
       end: "2021",
     },
-   
-  
   ],
   projects: [
     {
@@ -106,14 +95,8 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Redesigned a modern , Interactive 3D and Responsive landing page  enhancing user engagement and improving overall functionality across devices.",
-      technologies: [
-        "HTML",
-        "Javascript",
-        "Css",
-        "Spline",
-      
-      ],
+        "Redesigned a modern, interactive 3D and responsive landing page enhancing user engagement and improving overall functionality across devices.",
+      technologies: ["HTML", "JavaScript", "CSS", "Spline"],
       links: [
         {
           type: "Website",
@@ -122,23 +105,16 @@ export const DATA = {
         },
       ],
       image: "/image.png",
-      video:
-        "",
+      video: "",
     },
     {
-      title: "Petshop Landing page",
+      title: "Petshop Landing Page",
       href: "https://petshop-gray.vercel.app/",
       dates: "",
       active: true,
       description:
-        "Designed, developed and sold animated UI Petshop Landing Page with stunning ui and seamless user experience.",
-      technologies: [
-        "React js",
-        "Javascript",
-        "Vercel",
-        "Figma",
-        "TailwindCSS",
-      ],
+        "Designed, developed, and sold animated UI Petshop Landing Page with stunning UI and seamless user experience.",
+      technologies: ["React.js", "JavaScript", "Vercel", "Figma", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -155,67 +131,44 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Ui Ux Design Project",
+      title: "UI/UX Design Project",
       href: "https://earthyorigins.in/",
       dates: "",
       active: true,
       description:
-        "Designed , wireframed and prototyped the ecommerce web design project with seamless user interface and user experience .",
-      technologies: [
-        "Figma",
-        "Adobe Xd",
-        "Miro",
-      ],
+        "Designed, wireframed, and prototyped the e-commerce web design project with seamless user interface and user experience.",
+      technologies: ["Figma", "Adobe Xd", "Miro"],
       links: [
         {
           type: "Website",
           href: "https://earthyorigins.in/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "",
-          href: "",
-        
-        },
       ],
       image: "/uiux.png",
       video: "",
     },
     {
-      title: "EPILEPTIC SEIZURE DETECTOR(IOT based)",
+      title: "Epileptic Seizure Detector (IoT-based)",
       href: "",
       dates: "",
       active: true,
       description:
-        "Epileptic Seizure Detector (IoT-based) is a real-time monitoring system designed to detect and respond to epileptic seizures. ",
-      technologies: [
-        "Heartbeat Sensor",
-        "Arduino UNO",
-        "Node Mcu",
-        "Temperature sensor",
-        
-      ],
-      links: [
-        {
-          type: "",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+        "Epileptic Seizure Detector (IoT-based) is a real-time monitoring system designed to detect and respond to epileptic seizures.",
+      technologies: ["Heartbeat Sensor", "Arduino UNO", "Node MCU", "Temperature Sensor"],
+      links: [], // Removed empty links to prevent errors
       image: "/iot.jpeg",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
     {
-      title: "Professional Google ux design",
+      title: "Professional Google UX Design",
       dates: "",
-      location: "Remote - Coursera ",
+      location: "Remote - Coursera",
       description:
-        "Completed google ux design certificate on coursera with milestone projects.",
-      image:
-        "/google.jpg",
+        "Completed Google UX Design certificate on Coursera with milestone projects.",
+      image: "/google.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -224,15 +177,10 @@ export const DATA = {
       dates: "",
       location: "Remote - Coursera",
       description:
-        "Completed Meta Frontend Developer coursera with milestone Projects.",
-      image:
-        "/metalogo.png",
+        "Completed Meta Frontend Developer certificate on Coursera with milestone projects.",
+      image: "/metalogo.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-   
-   
-    
-  
   ],
 } as const;
