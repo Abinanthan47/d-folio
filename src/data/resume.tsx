@@ -130,24 +130,24 @@ export const DATA = {
       image: "/petshop.png",
       video: "",
     },
+{
+  title: "UI/UX Design Project",
+  href: "https://earthyorigins.in/",
+  dates: "",
+  active: true,
+  description:
+    "Designed, wireframed, and prototyped the e-commerce web design project with seamless user interface and user experience.",
+  technologies: ["Figma", "Adobe Xd", "Miro"],
+  links: [
     {
-      title: "UI/UX Design Project",
+      type: "Website",
       href: "https://earthyorigins.in/",
-      dates: "",
-      active: true,
-      description:
-        "Designed, wireframed, and prototyped the e-commerce web design project with seamless user interface and user experience.",
-      technologies: ["Figma", "Adobe Xd", "Miro"],
-      links: [
-        {
-          type: "Website",
-          href: "https://earthyorigins.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/uiux.png",
-      video: "",
+      icon: <Icons.globe className="size-3" />,
     },
+  ],
+  image: "/uiux.png",
+  video: "",
+},
     {
       title: "Epileptic Seizure Detector (IoT-based)",
       href: "",
