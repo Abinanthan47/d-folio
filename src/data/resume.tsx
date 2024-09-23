@@ -23,9 +23,7 @@ export const DATA = {
     "Java",
     "C",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "skdinesh2003@gmail.com",
     tel: "+91 93457 32570",
@@ -114,7 +112,13 @@ export const DATA = {
       active: true,
       description:
         "Designed, developed, and sold animated UI Petshop Landing Page with stunning UI and seamless user experience.",
-      technologies: ["React.js", "JavaScript", "Vercel", "Figma", "TailwindCSS"],
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "Vercel",
+        "Figma",
+        "TailwindCSS",
+      ],
       links: [
         {
           type: "Website",
@@ -130,24 +134,24 @@ export const DATA = {
       image: "/petshop.png",
       video: "",
     },
-{
-  title: "UI/UX Design Project",
-  href: "https://earthyorigins.in/",
-  dates: "",
-  active: true,
-  description:
-    "Designed, wireframed, and prototyped the e-commerce web design project with seamless user interface and user experience.",
-  technologies: ["Figma", "Adobe Xd", "Miro"],
-  links: [
     {
-      type: "Website",
+      title: "UI/UX Design Project",
       href: "https://earthyorigins.in/",
-      icon: <Icons.globe className="size-3" />,
+      dates: "",
+      active: true,
+      description:
+        "Designed, wireframed, and prototyped the e-commerce web design project with seamless user interface and user experience.",
+      technologies: ["Figma", "Adobe Xd", "Miro"],
+      links: [
+        {
+          type: "Website",
+          href: "https://earthyorigins.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/uiux.png",
+      video: "",
     },
-  ],
-  image: "/uiux.png",
-  video: "",
-},
     {
       title: "Epileptic Seizure Detector (IoT-based)",
       href: "",
@@ -155,7 +159,12 @@ export const DATA = {
       active: true,
       description:
         "Epileptic Seizure Detector (IoT-based) is a real-time monitoring system designed to detect and respond to epileptic seizures.",
-      technologies: ["Heartbeat Sensor", "Arduino UNO", "Node MCU", "Temperature Sensor"],
+      technologies: [
+        "Heartbeat Sensor",
+        "Arduino UNO",
+        "Node MCU",
+        "Temperature Sensor",
+      ],
       links: [], // Removed empty links to prevent errors
       image: "/iot.jpeg",
       video: "",
