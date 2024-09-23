@@ -165,7 +165,6 @@ export const DATA = {
         "Figma",
         "Adobe Xd",
         "Miro",
-        ,
       ],
       links: [
         {
