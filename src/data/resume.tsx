@@ -81,7 +81,7 @@ export const DATA = {
       school: "Nalandas Higher secondary school",
       href: "https://uwaterloo.ca",
       degree: "SSLC , HSC", // Fixed text consistency
-      logoUrl: "/waterloo.png",
+      logoUrl: "/nalogo.jpg",
       start: "2018",
       end: "2021",
     },
