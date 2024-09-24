@@ -79,7 +79,7 @@ export const DATA = {
     },
     {
       school: "Nalandas Higher secondary school",
-      href: "https://uwaterloo.ca",
+      href: "",
       degree: "SSLC , HSC", // Fixed text consistency
       logoUrl: "/nalogo.jpg",
       start: "2018",
@@ -117,7 +117,7 @@ export const DATA = {
         "JavaScript",
         "Vercel",
         "Figma",
-        "TailwindCSS",
+        
       ],
       links: [
         {
@@ -127,7 +127,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com",
           icon: <Icons.github className="size-3" />,
         },
       ],
